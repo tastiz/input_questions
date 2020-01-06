@@ -1,0 +1,30 @@
+# Ask the user for input and store the result in a variable.
+bottle_count = int(input("How many bottles of beer are on the wall?"))
+
+# Substitute in the value `bottle_count` was set to when printing
+# this message. The {} here will get replaced with `bottle_count` because of `.format(bottle_count)`
+print("There are {} bottles of beer on the wall.".format(bottle_count)) 
+
+if input("Would you like to take any down?") == "yes":
+    removed_bottles = int(input("Ok, how many?"))
+    bottle_count = bottle_count - removed_bottles
+    print("There are now {} bottles on the wall".format(bottle_count))
+else:
+    print("Ok, there are still {} bottles on the wall.".format(bottle_count))
+    
+    
+laundry_count = int(input("How much laundry is there to do?"))
+
+print("{} pieces of clothes need to be washed").format(laundry_count)
+
+washes_count = int(input("How many colors/loads are there to be done?"))
+
+print("{} washes will clean all your dirty clothes").format(washes_count)
+
+if washes_count = 1:
+  print("Your laundry will be done in one hour")
+elif washes_count = 2:
+  print("Your laundry will be doen in two hours")
+else:
+  print("Don't make plans, you're doing laundry all day")
+
