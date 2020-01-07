@@ -13,18 +13,20 @@ else:
     print("Ok, there are still {} bottles on the wall.".format(bottle_count))
     
     
-laundry_count = int(input("How much laundry is there to do?"))
+#laundry_count = int(input("How much laundry is there to do?"))
 
-print("{} pieces of clothes need to be washed").format(laundry_count)
+#print("{} pieces of clothes need to be washed").format(laundry_count)
 
-washes_count = int(input("How many colors/loads are there to be done?"))
+#washes_count = int(input("How many colors/loads are there to be done?"))
 
-print("{} washes will clean all your dirty clothes").format(washes_count)
+#print("{} washes will clean all your dirty clothes").format(washes_count)
 
-if washes_count = 1:
-  print("Your laundry will be done in one hour")
-elif washes_count = 2:
-  print("Your laundry will be doen in two hours")
-else:
-  print("Don't make plans, you're doing laundry all day")
+#if washes_count = 1:
+  #print("Your laundry will be done in one hour")
+#elif washes_count = 2:
+  #print("Your laundry will be doen in two hours")
+#else:
+  #print("Don't make plans, you're doing laundry all day")
+  
+
 
