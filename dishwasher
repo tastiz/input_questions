@@ -1,0 +1,13 @@
+# Ask the user for input and store the result in a variable.
+dish_count = int(input("How many dirty dishes need cleaning?"))
+
+# Substitute in the value `dish_count` was set to when printing
+# this message. The {} here will get replaced with `dish_count` because of `.format(dish_count)`
+print("There are {} dirty dishes that need to been cleaned.".format(dish_count)) 
+
+if input("Would you like to run the dishwasher?") == "yes":
+    clean_dishes = int(input("Ok, how many dishes are still clean?"))
+    dish_count = dish_count + clean_dishes
+    print("After washing the dishes, {} dishes will be clean".format(dish_count))
+else:
+    print("Ok, there are still {} clean dishes to use.".format(clean_dishes))
