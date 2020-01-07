@@ -10,4 +10,5 @@ if input("Would you like to run the dishwasher?") == "yes":
     dish_count = dish_count + clean_dishes
     print("After washing the dishes, {} dishes will be clean".format(dish_count))
 else:
+    clean_dishes = int(input("Ok, how many dishes are still clean?"))
     print("Ok, there are still {} clean dishes to use.".format(clean_dishes))
