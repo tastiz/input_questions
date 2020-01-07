@@ -1,16 +1,16 @@
 #Input system for newly purchased clothes
 
-total_shirts = int(input("How many shirts do you own?))
+total_shirts = int(input("How many shirts do you own?"))
 print("You own {} shirts.").format(total_shirts)
 
 shopping = input("Did you buy new clothes today y/n?")
 if shopping == "y":
   new_shirts = input("Did you buy any new shirts y/n?")
     if new_shirts == "y":
-      new_shirts_count = int(input(How many shirts did you buy?"))
+      new_shirts_count = int(input("How many shirts did you buy?"))
       total_shirts = total_shirts + new_shirts_count
-      print("You now have {} shirts in your closet!").format(total_shirts)
+      print("You now have {} shirts in your closet!".format(total_shirts))
      else:
-      print("You still have {} shirts in your closet.").format(total_shirts)
+      print("You still have {} shirts in your closet.".format(total_shirts))
  else:
   print("Way to not always be shopping!")
